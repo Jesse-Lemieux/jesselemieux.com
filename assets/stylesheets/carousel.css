@@ -53,9 +53,9 @@ body {
     background-color: #777;
   }
   .carousel-inner > .item > img {
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    width: 100%;
+    width: auto;
     object-position: right center;
     opacity: 0.2;
   }
@@ -109,6 +109,11 @@ body {
       padding-right: 0;
       padding-left: 0;
     }
+
+    .carousel-inner > .item > img {
+        height: auto;
+        object-position: center;
+      }
   
     /* The navbar becomes detached from the top, so we round the corners */
     .navbar-wrapper .navbar {
